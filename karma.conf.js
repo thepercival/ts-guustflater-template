@@ -2,15 +2,13 @@
 module.exports = (config) => {
   config.set({
     basePath: '../..',
-    frameworks: ['jasmine'],
-    customLaunchers: {
-      ChromeHeadless: {
-        base: 'ChromeHeadless',
-        flags: [
-          '--no-sandbox'
-        ]
-      }
-    },
+    frameworks: ['jasmine'],    
+    ChromeHeadless: {
+      base: 'ChromeHeadless',
+      flags: [
+        '--no-sandbox'
+      ]
+    }
   });
 }
 
