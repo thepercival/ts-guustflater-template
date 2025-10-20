@@ -2,10 +2,17 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.6.
 
+
 Functionalities:
 1. Angular app
 2. With Docker
 3. Deployment
+
+A SET CHROME_BIN
+1. export CHROME_BIN=/usr/bin/chromium-headless-shell 
+2. echo $CHROME_BIN 
+3. npm test --silent -- --no-watch --no-progress --browsers=ChromeHeadless
+
 
 ## Development server
 
