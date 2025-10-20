@@ -26,7 +26,6 @@ module.exports = function (config) {
       require('karma-chrome-launcher'),
       require('karma-jasmine-html-reporter'),
       require('karma-coverage'),
-      require('@angular-devkit/build-angular/plugins/karma')
     ],
     client: {
       clearContext: false
@@ -65,20 +64,3 @@ module.exports = function (config) {
     restartOnFileChange: true
   });
 };
-
-
-// karma.conf.ts
-module.exports = (config) => {
-  config.set({
-    basePath: '../..',
-    frameworks: ['jasmine'],
-      ChromeHeadless: {
-          base: 'ChromeHeadless',
-          flags: ['--no-sandbox'],
-      }
-  });
-}
-
-const puppeteer = require('puppeteer');
-// console.log(puppeteer);
-process.env.CHROME_BIN = puppeteer.executablePath();
