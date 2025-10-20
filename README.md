@@ -13,6 +13,10 @@ A SET CHROME_BIN
 2. echo $CHROME_BIN 
 3. npm test --silent -- --no-watch --no-progress --browsers=ChromeHeadless
 
+B. GITHUB STAPPEN OM BRANCHES + MERGE TE DOEN
+1. Settings => Branches => Add classic branch protection rule main and only set "Require a pull request before merging"
+2. Settings => Actions => General => Workflow permissions set GITHUB_TOKEN to "read & write"
+
 
 ## Development server
 
