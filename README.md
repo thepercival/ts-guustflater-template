@@ -4,14 +4,9 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 
 Functionalities:
-1. Angular app
-2. With Docker
-3. Deployment
-
-A SET CHROME_BIN
-1. export CHROME_BIN=/usr/bin/chromium-headless-shell 
-2. echo $CHROME_BIN 
-3. npm test --silent -- --no-watch --no-progress --browsers=ChromeHeadless
+1. Angular app OK
+2. With Docker INPROGRESS..
+3. Deployment TO DOMAIN/HOST TODO
 
 B. GITHUB STAPPEN OM BRANCHES + MERGE TE DOEN
 1. Settings => Branches => Add classic branch protection rule main and only set "Require a pull request before merging"
